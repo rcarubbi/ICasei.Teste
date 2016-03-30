@@ -1,4 +1,5 @@
 class ContactsController < ApplicationController
+  protect_from_forgery :except => :create
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
 
   # GET /contacts
