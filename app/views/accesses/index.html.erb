@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Accesses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Guid</th>
+      <th>Url</th>
+      <th>Access Date/Time</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @accesses.each do |access| %>
+      <tr>
+        <td><%= access.guid %></td>
+        <td><%= access.url %></td>
+        <td><%= access.accessDateTime %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>

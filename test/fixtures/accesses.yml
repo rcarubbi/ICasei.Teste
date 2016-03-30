@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  guid: MyString
+  url: MyString
+  accessDateTime: 2016-03-30 01:55:41
+
+two:
+  guid: MyString
+  url: MyString
+  accessDateTime: 2016-03-30 01:55:41
