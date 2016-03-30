@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Follow the instructions below to configure and run the solution
 
-Things you may want to cover:
+* To create database run the following command in bin folder: rake db:migrate
 
-* Ruby version
+* To run the webserver type this command in the same folder: rails server
 
-* System dependencies
+* The Example WebSite can be found on client-website folder
 
-* Configuration
+* The Javascript libraries are on client-website\Scripts folder.
 
-* Database creation
+* If the rails app domain is configured different from localhost:3000 this information need be reconfigured on the javascript libraries. I can be done by changing this value on API_URL constant in both files (icasei.contactProxy.js and icasei.accessLog.js)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
