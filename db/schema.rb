@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160330043605) do
+ActiveRecord::Schema.define(version: 20160330045541) do
+
+  create_table "accesses", force: :cascade do |t|
+    t.string   "guid"
+    t.string   "url"
+    t.datetime "accessDateTime"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
+  end
 
   create_table "contacts", force: :cascade do |t|
     t.string   "name"
