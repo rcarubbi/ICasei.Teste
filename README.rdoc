@@ -14,6 +14,6 @@ Follow the instructions below to configure and run the solution
 
 * You can view the access log through the following path http://localhost:3000/accesses
 
-* You can view the contacts through the path http;//localhost;3000/contacts or through the root path as well. 
+* You can view the contacts through the path http://localhost:3000/contacts or through the root path as well. 
 
 * the client Web site can be accessed directly by the file index.HTML in the path mentioned above. 
