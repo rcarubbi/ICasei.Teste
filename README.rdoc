@@ -10,7 +10,7 @@ Follow the instructions below to configure and run the solution
 
 * The Javascript libraries are on client-website\\Scripts folder.
 
-* If the rails app domain is configured different from localhost:3000 this information need be reconfigured on the javascript libraries. I can be done by changing this value on API_URL constant in both files (icasei.contactProxy.js and icasei.accessLog.js)
+* If the rails app domain is configured different from localhost:3000 this information need be reconfigured on the javascript libraries. It can be done by changing this value on API_URL constant in both files (icasei.contactProxy.js and icasei.accessLog.js)
 
 * You can view the access log through the following path http://localhost:3000/accesses
 
